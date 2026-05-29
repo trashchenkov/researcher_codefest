@@ -15,8 +15,7 @@
 - `.env.example` — шаблон переменных окружения без секретов.
 - `requirements.txt` — зависимости для запуска блокнота и baseline.
 - `participant_scoring_criteria.md` — критерии оценки улучшений участниками относительно baseline.
-
-Презентация будет добавлена отдельно позже.
+- `codefest_ai_researcher_intro_slides.pdf` — короткая вводная презентация для мастер-класса с QR-кодами.
 
 ## Требования
 
@@ -33,7 +32,7 @@ brew install python@3.12
 ## Установка
 
 ```bash
-cd codefest-ai-researcher
+cd researcher_codefest
 /opt/homebrew/bin/python3.12 -m venv .venv
 . .venv/bin/activate
 python -m pip install --upgrade pip
