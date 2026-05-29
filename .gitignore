@@ -1,0 +1,26 @@
+# Secrets
+.env
+*.env.local
+
+# Python
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local Phoenix / traces / run artifacts
+.phoenix/
+.phoenix*/
+notebooks/.phoenix/
+notebooks/.phoenix*/
+reports/
+report.md
+*.log
+
+# OS/editor
+.DS_Store
+~$*
+.vscode/
+.idea/

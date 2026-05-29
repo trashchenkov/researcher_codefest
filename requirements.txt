@@ -1,0 +1,21 @@
+# Runtime dependencies for the CodeFest AI Researcher notebook and baseline.
+# Target runtime: Python 3.12.
+
+openai>=1.26,<3
+tavily-python>=0.7,<1
+pydantic>=2,<3
+
+# Pinned Phoenix 13 stack: intentionally kept on the known-working UI/runtime.
+arize-phoenix==13.12.0
+arize-phoenix-evals==2.11.0
+arize-phoenix-otel==0.15.0
+openinference-instrumentation-openai>=0.1.48,<1
+opentelemetry-sdk>=1.24,<2
+
+# Phoenix 13.12 compatibility pins.
+fastapi==0.135.1
+starlette==0.52.1
+uvicorn==0.41.0
+
+nbformat>=5,<6
+notebook>=7,<8
